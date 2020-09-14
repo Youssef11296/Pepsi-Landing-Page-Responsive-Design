@@ -1,5 +1,6 @@
 /* Media Quiries */
 @media screen and (max-width: 1000px) {
+
   /* Container */
   .container {
     padding: 20px 40px;
@@ -55,10 +56,6 @@
 
   main .showcase .content {
     margin-bottom: 2rem;
-  }
-
-  main .showcase .content p {
-    padding-right: 40px;
   }
 
   main .showcase .image {

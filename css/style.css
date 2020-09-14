@@ -97,6 +97,7 @@ main .showcase .content p {
     line-height: 1.6;
     max-width: 600px;
     margin: 20px 0;
+    padding-right: 40px;
 }
 
 main .showcase .content a {
@@ -113,9 +114,9 @@ main .showcase .content a {
 }
 
 main .showcase .image {
-    width: 400px;
+    width: 300px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 main .showcase .image img {
@@ -133,13 +134,13 @@ main .sci {
 }
 
 main .sci img {
-    width: 25px;
+    max-width: 30px;
     margin: 20px 0;
     filter: invert(1);
 }
 
 main .sci img:nth-child(1) {
-    width: 20px;
+    min-width: 20px;
 }
 
 /* Img Indicators */
