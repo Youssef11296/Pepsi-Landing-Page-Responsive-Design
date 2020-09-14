@@ -6,6 +6,13 @@
 }
 
 @media screen and (max-width: 900px) {
+
+    /* Container */
+    .container {
+        padding: 20px 40px;
+    }
+
+    /* Header */
     header nav ul {
         position: fixed;
         top: 0;
@@ -44,6 +51,11 @@
     }
 
     /* Main */
+    main {
+        position: relative;
+        min-height: 120vh;
+    }
+
     main .showcase {
         flex-direction: column;
     }
@@ -52,8 +64,14 @@
         margin-bottom: 2rem;
     }
 
+    main .showcase .content p {
+        padding-right: 40px;
+    }
+
     main .showcase .image {
-        width: 190px;
+        width: 240px;
+        align-items: start;
+        margin-bottom: 6rem;
     }
 
     /* SCi */
@@ -65,12 +83,10 @@
 
     /* Indicators */
     main .indicators {
-        bottom: -14rem;
+        bottom: 1rem;
     }
-}
 
-@media screen and (max-width: 700px) {
-    main .showcase .image {
-        width: 130px;
+    main .indicators img {
+        max-width: 30px;
     }
 }

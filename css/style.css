@@ -69,8 +69,13 @@ header .icon img {
 }
 
 /* Showcase Style */
+main {
+    min-height: 80vh;
+    position: relative;
+}
+
 main .showcase {
-    height: 80vh;
+    height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -130,15 +135,18 @@ main .sci {
 main .sci img {
     width: 25px;
     margin: 20px 0;
-    cursor: pointer;
     filter: invert(1);
+}
+
+main .sci img:nth-child(1) {
+    width: 20px;
 }
 
 /* Img Indicators */
 main .indicators {
     position: absolute;
     left: 50%;
-    bottom: 2rem;
+    bottom: 0;
     transform: translateX(-50%);
 }
 
