@@ -1,0 +1,158 @@
+/* Variables */
+:root {
+    --main-font-size: 1.2rem;
+}
+
+/* Global Style */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+/* Body Style */
+body {
+    height: 100vh;
+    background-color: #0067a8;
+}
+
+/* Container Style */
+.container {
+    padding: 20px 80px;
+}
+
+/* Header Style */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    width: 60px;
+}
+
+header .logo .img-fluid {
+    max-width: 100%;
+}
+
+header nav {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.4s ease;
+    font-size: var(--main-font-size);
+}
+
+header nav ul li a:hover {
+    color: #d31028;
+}
+
+header .icon {
+    width: 40px;
+    display: none;
+    cursor: pointer;
+}
+
+header .icon img {
+    max-width: 100%;
+}
+
+/* Showcase Style */
+main .showcase {
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .showcase .content {
+    flex: 2;
+    color: #fff;
+}
+
+main .showcase .content h1 {
+    font-size: 4em;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+main .showcase .content p {
+    font-size: var(--main-font-size);
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 20px 0;
+}
+
+main .showcase .content a {
+    color: #111;
+    text-decoration: none;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 10px 0;
+    font-size: var(--main-font-size);
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+main .showcase .image {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+main .showcase .image img {
+    max-width: 100%;
+}
+
+/* Sci Style */
+main .sci {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 50%;
+    right: 2rem;
+    transform: translateY(-50%);
+}
+
+main .sci img {
+    width: 25px;
+    margin: 20px 0;
+    cursor: pointer;
+    filter: invert(1);
+}
+
+/* Img Indicators */
+main .indicators {
+    position: absolute;
+    left: 50%;
+    bottom: 2rem;
+    transform: translateX(-50%);
+}
+
+main .indicators img {
+    margin: 0 10px;
+    max-width: 40px;
+    cursor: pointer;
+    transition: transform 0.2s linear;
+}
+
+main .indicators img:hover {
+    transform: translateY(-15px);
+}

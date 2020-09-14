@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>Pepsi Landing Page</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="container">
+        <div class="logo"><img src="images/logo.png" class="img-fluid"></div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Sales</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="icon" id="icon" onClick="toggle()"><img src="images/menu.png"></div>
+    </header>
+    <!-- Main -->
+    <main>
+        <!-- Showcase -->
+        <section class="showcase container">
+            <div class="content">
+                <h1>That's What<br><span>I Like</span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam repellendus ipsa iste quam, iure
+                    impedit in iure, vero at?</p>
+                <a href="#">View All Products</a>
+            </div>
+            <div class="image">
+                <img src="images/pepsi001.png" id="img">
+            </div>
+        </section>
+        <!-- Social Media Icons -->
+        <div class="sci">
+            <img src="images/facebook.png">
+            <img src="images/twitter.png">
+            <img src="images/instagram.png">
+        </div>
+        <!-- Can Indicators -->
+        <div class="indicators">
+            <img src="images/pepsi001.png" onClick="change('images/pepsi001.png', '#0067a8')">
+            <img src="images/pepsi002.png" onClick="change('images/pepsi002.png', '#ed0223')">
+            <img src="images/pepsi003.png" onClick="change('images/pepsi003.png', '#0b0d0e')">
+        </div>
+    </main>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
