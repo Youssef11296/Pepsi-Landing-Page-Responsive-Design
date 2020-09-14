@@ -1,7 +1,13 @@
 /* Media Quiries */
+@media screen and (max-width:1000px) {
+    header nav {
+        width: 60%;
+    }
+}
+
 @media screen and (max-width: 900px) {
     header nav ul {
-        position: absolute;
+        position: fixed;
         top: 0;
         left: 0;
         width: 100vw;
@@ -9,17 +15,27 @@
         background-color: #fff;
         justify-content: space-around;
         display: none;
+        z-index: 2;
     }
 
-    header ul li a {
+    header nav ul li a {
         color: #0b0d0e;
+        font-size: 1.6rem;
+        transition: color 0.2s ease;
     }
 
-    header ul.active {
-        display: inline-block;
+    header nav ul li a:hover {
+        color: #d31028;
+    }
+
+    header nav ul.active {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
     }
 
     header .icon {
+        z-index: 1000;
         display: inline-block;
     }
 

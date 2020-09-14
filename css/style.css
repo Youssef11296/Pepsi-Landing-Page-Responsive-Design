@@ -15,6 +15,7 @@
 body {
     height: 100vh;
     background-color: #0067a8;
+    transition: .2s;
 }
 
 /* Container Style */
@@ -54,12 +55,7 @@ header nav ul {
 header nav ul li a {
     color: #fff;
     text-decoration: none;
-    transition: color 0.4s ease;
     font-size: var(--main-font-size);
-}
-
-header nav ul li a:hover {
-    color: #d31028;
 }
 
 header .icon {
