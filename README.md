@@ -1,6 +1,6 @@
 # Pepsi-Landing-Page-Responsive-Design
 
-It's A Creative Landing Page Dseign Created By Using :
+It's A Creative Landing Page Design Created By Using :
 
 - HTML
 
