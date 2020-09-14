@@ -1,0 +1,60 @@
+/* Media Quiries */
+@media screen and (max-width: 900px) {
+    header nav ul {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: #fff;
+        justify-content: space-around;
+        display: none;
+    }
+
+    header ul li a {
+        color: #0b0d0e;
+    }
+
+    header ul.active {
+        display: inline-block;
+    }
+
+    header .icon {
+        display: inline-block;
+    }
+
+    header .icon.invert {
+        filter: invert(1);
+    }
+
+    /* Main */
+    main .showcase {
+        flex-direction: column;
+    }
+
+    main .showcase .content {
+        margin-bottom: 2rem;
+    }
+
+    main .showcase .image {
+        width: 190px;
+    }
+
+    /* SCi */
+    main .sci {
+        padding: 20px;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    /* Indicators */
+    main .indicators {
+        bottom: -14rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    main .showcase .image {
+        width: 130px;
+    }
+}
